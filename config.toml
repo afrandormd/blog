@@ -1,0 +1,191 @@
+baseURL = "http://afrandormd.github.io/"
+# [en, zh-cn, fr, ...] determines default content language
+defaultContentLanguage = "en"
+# language code
+languageCode = "en"
+title = "afrandormd"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "DoIt"
+
+[params]
+  # DoIt theme version
+  version = "0.2.X"
+
+  # hugo header
+  [params.header.title]
+    name = "Afrando"
+    pre = "<i class='fas fa-laptop-code'></i>"
+    typeit = true
+
+  # Profile Gravatar
+  [params.home.profile]
+    enable = true
+    # Gravatar Email for preferred avatar in home page
+    gravatarEmail = "afrandormd@gmail.com"
+    # URL of avatar shown in home page
+    avatarURL = "/images/avatar.webp"
+    # URL the avatar links to
+    avatarLinkURL = "about/"
+
+    title = ""
+    # subtitle
+    subtitle = "I thought a lot, but talked a little, so I wrote."
+    # typeit
+    typeit = true
+    # social
+    social = true
+   
+  # Social Media config about the author
+  [params.social]
+    # Github
+    [params.social.Github]
+      # weight when arranging icons (the greater the weight, the later the icon is positioned)
+      weight = 0 
+      # your social ID 
+      id = "afrandormd"
+      # prefix of your social link 
+      prefix = "https://github.com/"
+      # content hovering on the icon
+      title = "Github"
+
+    # Instagram
+    [params.social.Instagram]
+      # weight when arranging icons (the greater the weight, the later the icon is positioned)
+      weight = 1 
+      # your social ID 
+      id = "rando.zip"
+      # prefix of your social link 
+      prefix = "https://instagram.com/"
+      # content hovering on the icon
+      title = "Instagram"
+    
+    # Twitter
+    [params.social.Twitter]
+      # weight when arranging icons (the greater the weight, the later the icon is positioned)
+      weight = 2 
+      # your social ID 
+      id = "afrandormd"
+      # prefix of your social link 
+      prefix = "https://twitter.com/"
+      # content hovering on the icon
+      title = "Twitter"
+      
+    # Youtube
+    [params.social.Youtubelegacy]
+      # weight when arranging icons (the greater the weight, the later the icon is positioned)
+      weight = 3 
+      # your social ID 
+      id = "@afrandormd"
+      # prefix of your social link 
+      prefix = "https://youtube.com/"
+      # content hovering on the icon
+      title = "Youtube"
+
+  # Search Configuration
+  [params.search]
+    enable = true
+    # type of search engine ("algolia", "fuse")
+    type = "fuse"
+    # max index length of the chunked content
+    contentLength = 4000
+    # placeholder of the search bar
+    placeholder = "Search titles or contents..."
+    # max number of results length
+    maxResultLength = 10
+    # snippet length of the result
+    snippetLength = 30
+    # HTML tag name of the highlight part in results
+    highlightTag = "em"
+    # whether to use the absolute URL based on the baseURL in search index
+    absoluteURL = false
+    [params.search.algolia]
+      index = ""
+      appID = ""
+      searchKey = ""
+    [params.search.fuse]
+    # https://fusejs.io/api/options.html
+      isCaseSensitive = false
+      minMatchCharLength = 2
+      findAllMatches = false
+      location = 0
+      threshold = 0.3
+      distance = 100
+      ignoreLocation = false
+      useExtendedSearch = false
+      ignoreFieldNorm = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+# End Search Configuration
+
+# Profile 
+[author]
+name = "afrandormd"
+homepage = "https://afrandormd.github.io"
+
+# Menu
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = "<i class='fas fa-edit'></i>"
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
+
+  # tags menu
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = "<i class='fas fa-tags'></i>"
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 2
+
+  # categories menu
+  # untuk menambah menu categories copas dari menu lainnya dan sesuaikan identifier, name, url, icon (post), weight. 
+  
+  # portfolio menu
+  [[menu.main]]
+    identifier = "projects"
+    pre = ""
+    post = "<i class='fas fa-code'></i>"
+    name = "Projects"
+    url = "/projects/"
+    title = ""
+    weight = 4
+
+  # certificate menu
+  [[menu.main]]
+    identifier = "certificate"
+    pre = ""
+    post = "<i class='fas fa-ribbon'></i>"
+    name = "Certificate"
+    url = "/certificate/"
+    title = ""
+    weight = 5
+
+  # about menu
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = "<i class='fas fa-user'></i>"
+    name = "About"
+    url = "/about/"
+    title = ""
+    weight = 6
+
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+
