@@ -121,7 +121,7 @@ theme = "DoIt"
 
 # Profile 
 [author]
-name = "afrandormd"
+name = "Afrando Sharein Ramadhan"
 homepage = "https://afrandormd.github.io"
 
 # Menu
@@ -137,6 +137,16 @@ homepage = "https://afrandormd.github.io"
     # title will be shown when you hover on this menu link
     title = ""
     weight = 1
+
+  # tutorial menu
+  [[menu.main]]
+    identifier = "Series"
+    pre = ""
+    post = "<i class='fas fa-layer-group'></i>"
+    name = "Series"
+    url = "/series/"
+    title = ""
+    weight = 4
 
   # tags menu
   [[menu.main]]
@@ -180,7 +190,11 @@ homepage = "https://afrandormd.github.io"
     url = "/about/"
     title = ""
     weight = 6
-
+    
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
 
 # Markup related configuration in Hugo
 [markup]
