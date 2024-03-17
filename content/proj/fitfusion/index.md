@@ -9,7 +9,8 @@ hiddenFromSearch: true
 ---
 
 <!-- more -->
-![fitfusion display](/img/projects/fitfusion/fitfusion-display.png)
+<!-- ![fitfusion display](/img/projects/fitfusion/fitfusion-display.png) -->
+{{< image src="/img/projects/fitfusion/fitfusion-display.png" width="100%" >}}
 
 ### FitFusion - Aplikasi Desain UI/UX untuk Aplikasi Fitness
 
@@ -24,7 +25,7 @@ Proyek FitFusion diinisiasi untuk mengatasi masalah umum yang dihadapi oleh peng
 - **Halaman Profil Pengguna:** Setiap pengguna memiliki halaman profil pribadi yang memberikan informasi tentang profil mereka, prestasi latihan, dan rekomendasi berdasarkan aktivitas sebelumnya.
 - **Pengaturan dan Preferensi:** FitFusion memungkinkan pengguna untuk mengatur preferensi mereka, seperti pemberitahuan, jenis latihan yang disukai, dan target kebugaran.
 
-![fitfusion desain](/img/projects/fitfusion/fitfusion.png)
+{{< image src="/img/projects/fitfusion/fitfusion.png" width="100%" >}}
 
 #### Proses Desain:
 - **Penelitian Pengguna:** Proses desain FitFusion dimulai dengan penelitian yang mendalam tentang kebutuhan pengguna dan kebiasaan pengguna aplikasi fitness.

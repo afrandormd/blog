@@ -11,7 +11,7 @@ featuredImage: ""
 featuredImagePreview: ""
 ---
 
-![sinau-geometry display](/img/projects/sinau-geometry/sinau-geometry.png)
+{{< image src="/img/projects/sinau-geometry/sinau-geometry.png" width="100%" >}}
 ### Sinau Geometry - Aplikasi Pembelajaran Bangun Ruang Berbasis Augmented Reality
 
 Sinau Geometry adalah aplikasi pembelajaran bangun ruang yang menggunakan teknologi augmented reality (AR) untuk memberikan pengalaman belajar yang interaktif dan menyenangkan bagi anak-anak SD hingga SMP.  
@@ -24,7 +24,7 @@ Aplikasi ini merupakan hasil kerjasama tim yang terdiri dari saya dan rekan-reka
 
 #### Penghargaan Lomba:
 Sinau Geometry meraih **juara 1 dalam lomba expo 2024 Universitas Teknokrat Indonesia**, menghadirkan aplikasi yang menjadi sorotan dan memenangkan penghargaan untuk kontribusi inovatif dalam pendidikan matematika.
-![sinau geometry juara](/img/projects/sinau-geometry/sinau-geometry-juara.png)
+{{< image src="/img/projects/sinau-geometry/sinau-geometry-juara.png" width="100%" >}}
 
 #### Testimoni:
 _"Fitur scan gambar menjadi objek 3D sangat menarik dan membantu anak-anak kami memahami konsep bangun ruang dengan lebih mudah."_ - Ibu Ani, Guru Matematika

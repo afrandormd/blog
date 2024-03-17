@@ -146,7 +146,7 @@ homepage = "https://afrandormd.github.io"
     name = "Series"
     url = "/series/"
     title = ""
-    weight = 4
+    weight = 2
 
   # tags menu
   [[menu.main]]
@@ -156,7 +156,7 @@ homepage = "https://afrandormd.github.io"
     name = "Tags"
     url = "/tags/"
     title = ""
-    weight = 2
+    weight = 3
 
   # categories menu
   # untuk menambah menu categories copas dari menu lainnya dan sesuaikan identifier, name, url, icon (post), weight. 
